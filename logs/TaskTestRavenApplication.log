@@ -1,0 +1,342 @@
+2024-04-30T09:05:29.074+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Starting TaskTestRavenApplicationTwoApplication using Java 19.0.2 with PID 7640 (D:\java\projects\TaskTestRavenApplicationTwo\target\classes started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T09:05:29.177+03:00 DEBUG 7640 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T09:05:29.183+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T09:05:34.704+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T09:05:34.905+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interface.
+2024-04-30T09:05:37.155+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-30T09:05:37.407+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7814 ms
+2024-04-30T09:05:47.007+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T09:05:49.741+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T09:05:51.032+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T09:05:51.876+03:00  WARN 7640 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T09:05:52.930+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-30T09:05:52.950+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Started TaskTestRavenApplicationTwoApplication in 27.555 seconds (process running for 53.507)
+2024-04-30T09:06:08.005+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30T09:06:08.009+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-04-30T09:06:08.090+03:00 DEBUG 7640 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.r.CustomerController               : Reading all active customers
+2024-04-30T09:06:08.090+03:00 DEBUG 7640 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.services.CustomerService           : Reading all active customers
+2024-04-30T09:06:08.870+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.r.CustomerController               : Found 0 active customers
+2024-04-30T09:09:23.415+03:00 ERROR 7640 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.advices.GlobalExceptionAdvice      : Unexpected error occurred: HV000243: Constraint com.example.tasktestravenapplicationtwo.annotations.UniqueEmail references constraint validator type org.hibernate.validator.internal.constraintvalidators.hv.UniqueElementsValidator, but this validator is defined for constraint type org.hibernate.validator.constraints.UniqueElements.
+2024-04-30T09:12:47.022+03:00  INFO 7640 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T09:13:05.390+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Starting TaskTestRavenApplicationTwoApplication using Java 19.0.2 with PID 9236 (D:\java\projects\TaskTestRavenApplicationTwo\target\classes started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T09:13:05.392+03:00 DEBUG 9236 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T09:13:05.393+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T09:13:07.339+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T09:13:07.420+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-04-30T09:13:08.373+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-30T09:13:08.635+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3175 ms
+2024-04-30T09:13:13.102+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T09:13:15.766+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T09:13:16.276+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T09:13:16.812+03:00  WARN 9236 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T09:13:17.459+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-30T09:13:17.471+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Started TaskTestRavenApplicationTwoApplication in 12.965 seconds (process running for 15.13)
+2024-04-30T09:14:13.895+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30T09:14:13.898+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-30T09:14:14.440+03:00 DEBUG 9236 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.r.CustomerController               : Creating customer with email: test1@gmail.com
+2024-04-30T09:14:14.823+03:00  WARN 9236 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1048, SQLState: 23000
+2024-04-30T09:14:14.824+03:00 ERROR 9236 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Column 'updated' cannot be null
+2024-04-30T09:14:14.865+03:00 ERROR 9236 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.advices.GlobalExceptionAdvice      : Unexpected error occurred: could not execute statement [Column 'updated' cannot be null] [insert into customers (created,email,full_name,is_active,phone,updated) values (?,?,?,?,?,?)]; SQL [insert into customers (created,email,full_name,is_active,phone,updated) values (?,?,?,?,?,?)]; constraint [null]
+2024-04-30T09:19:13.950+03:00  INFO 9236 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T09:21:05.830+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Starting TaskTestRavenApplicationTwoApplication using Java 19.0.2 with PID 12988 (D:\java\projects\TaskTestRavenApplicationTwo\target\classes started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T09:21:05.839+03:00 DEBUG 12988 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T09:21:05.843+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T09:21:08.216+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T09:21:08.320+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2024-04-30T09:21:09.876+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-30T09:21:09.962+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3952 ms
+2024-04-30T09:21:12.327+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T09:21:14.732+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T09:21:15.039+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T09:21:15.522+03:00  WARN 12988 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T09:21:16.051+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-30T09:21:16.066+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Started TaskTestRavenApplicationTwoApplication in 11.044 seconds (process running for 12.28)
+2024-04-30T09:21:24.240+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30T09:21:24.242+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-30T09:21:24.574+03:00 DEBUG 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.r.CustomerController               : Creating customer with email: test1@gmail.com
+2024-04-30T09:21:24.859+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.services.CustomerService           : Customer with email test1@gmail.com created successfully
+2024-04-30T09:22:00.178+03:00 DEBUG 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.r.CustomerController               : Creating customer with email: test2@gmail.com
+2024-04-30T09:22:00.311+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.services.CustomerService           : Customer with email test2@gmail.com created successfully
+2024-04-30T09:22:28.646+03:00 DEBUG 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.r.CustomerController               : Creating customer with email: test3@gmail.com
+2024-04-30T09:22:28.763+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.services.CustomerService           : Customer with email test3@gmail.com created successfully
+2024-04-30T09:23:22.434+03:00 ERROR 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-5] c.e.t.advices.GlobalExceptionAdvice      : Validation error in field 'email': Email must be unique
+2024-04-30T09:23:48.497+03:00 ERROR 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-7] c.e.t.advices.GlobalExceptionAdvice      : Validation error in field 'fullName': Full name must be between 2 and 50 characters
+2024-04-30T09:23:48.498+03:00 ERROR 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-7] c.e.t.advices.GlobalExceptionAdvice      : Validation error in field 'email': Email must be unique
+2024-04-30T09:24:10.861+03:00 DEBUG 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-9] c.e.t.r.CustomerController               : Reading all active customers
+2024-04-30T09:24:10.861+03:00 DEBUG 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-9] c.e.t.services.CustomerService           : Reading all active customers
+2024-04-30T09:24:10.869+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-9] c.e.t.r.CustomerController               : Found 3 active customers
+2024-04-30T09:24:27.344+03:00 DEBUG 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-10] c.e.t.r.CustomerController               : Reading customer with id: 2
+2024-04-30T09:24:27.413+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-10] c.e.t.services.CustomerService           : Active customer found with id: 2
+2024-04-30T09:25:29.091+03:00 ERROR 12988 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.advices.GlobalExceptionAdvice      : Validation error in field 'email': Email must be unique
+2024-04-30T09:37:03.113+03:00  INFO 12988 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T13:56:19.046+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Starting TaskTestRavenApplicationTwoApplication using Java 19.0.2 with PID 15220 (D:\java\projects\TaskTestRavenApplicationTwo\target\classes started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T13:56:19.277+03:00 DEBUG 15220 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T13:56:19.279+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T13:56:23.962+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T13:56:24.288+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 303 ms. Found 1 JPA repository interface.
+2024-04-30T13:56:26.085+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-30T13:56:26.266+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6511 ms
+2024-04-30T13:56:41.234+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T13:56:44.053+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T13:56:44.716+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T13:56:45.613+03:00  WARN 15220 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T13:56:46.487+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-30T13:56:46.499+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Started TaskTestRavenApplicationTwoApplication in 31.876 seconds (process running for 54.243)
+2024-04-30T13:57:23.106+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30T13:57:23.108+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-30T13:57:23.839+03:00 DEBUG 15220 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.r.CustomerController               : Updating customer with id: 2
+2024-04-30T13:57:23.841+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T13:57:23.844+03:00 ERROR 15220 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: IDs don't match
+2024-04-30T13:58:22.196+03:00 DEBUG 15220 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.r.CustomerController               : Updating customer with id: 2
+2024-04-30T13:58:22.197+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T13:58:22.829+03:00 ERROR 15220 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: Email doesn't match
+2024-04-30T14:00:53.246+03:00  INFO 15220 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:01:49.835+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Starting TaskTestRavenApplicationTwoApplication using Java 19.0.2 with PID 7724 (D:\java\projects\TaskTestRavenApplicationTwo\target\classes started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T14:01:49.837+03:00 DEBUG 7724 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T14:01:49.839+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T14:01:51.603+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T14:01:51.695+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+2024-04-30T14:01:52.592+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-30T14:01:52.760+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2859 ms
+2024-04-30T14:01:57.070+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T14:02:03.126+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:02:03.477+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T14:02:04.015+03:00  WARN 7724 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T14:02:04.583+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-30T14:02:04.613+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Started TaskTestRavenApplicationTwoApplication in 15.501 seconds (process running for 17.721)
+2024-04-30T14:02:21.975+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30T14:02:21.977+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-30T14:02:22.188+03:00 DEBUG 7724 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-1] c.e.t.r.CustomerController               : Updating customer with id: 2
+2024-04-30T14:02:22.191+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-1] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T14:02:22.271+03:00 ERROR 7724 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-1] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: Email doesn't match
+2024-04-30T14:03:02.924+03:00  INFO 7724 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:03:12.538+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Starting TaskTestRavenApplicationTwoApplication using Java 19.0.2 with PID 12000 (D:\java\projects\TaskTestRavenApplicationTwo\target\classes started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T14:03:12.541+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T14:03:12.542+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T14:03:13.786+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T14:03:13.869+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2024-04-30T14:03:14.662+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-30T14:03:14.742+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2122 ms
+2024-04-30T14:03:16.155+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T14:03:17.366+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:03:17.667+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T14:03:18.164+03:00  WARN 12000 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T14:03:18.694+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-30T14:03:18.706+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Started TaskTestRavenApplicationTwoApplication in 6.894 seconds (process running for 8.298)
+2024-04-30T14:04:13.462+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30T14:04:13.464+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-30T14:04:13.656+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.r.CustomerController               : Updating customer with id: 2
+2024-04-30T14:04:13.658+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T14:04:13.812+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.services.CustomerService           : Updating customer with id: 2
+2024-04-30T14:04:14.918+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.services.CustomerService           : Customer with id 2 updated successfully
+2024-04-30T14:04:36.594+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.r.CustomerController               : Updating customer with id: 2
+2024-04-30T14:04:36.594+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T14:04:36.601+03:00 ERROR 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: Email doesn't match
+2024-04-30T14:04:46.023+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-5] c.e.t.r.CustomerController               : Updating customer with id: 2
+2024-04-30T14:04:46.024+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-5] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T14:04:46.025+03:00 ERROR 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-5] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: IDs don't match
+2024-04-30T14:06:41.645+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-7] c.e.t.r.CustomerController               : Deactivating customer with id: 2
+2024-04-30T14:06:41.645+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-7] c.e.t.services.CustomerService           : Deactivating customer with id: 2
+2024-04-30T14:06:41.932+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-7] c.e.t.r.CustomerController               : Customer with id 2 deactivated successfully
+2024-04-30T14:06:55.135+03:00 ERROR 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-8] c.e.t.advices.GlobalExceptionAdvice      : Unexpected error occurred: No static resource api/customers.
+2024-04-30T14:07:05.269+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-10] c.e.t.r.CustomerController               : Reading all active customers
+2024-04-30T14:07:05.269+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-10] c.e.t.services.CustomerService           : Reading all active customers
+2024-04-30T14:07:05.326+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-10] c.e.t.r.CustomerController               : Found 2 active customers
+2024-04-30T14:07:15.507+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-1] c.e.t.r.CustomerController               : Reading customer with id: 2
+2024-04-30T14:07:15.516+03:00 ERROR 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-1] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: No customer found or inactive with id: 2
+2024-04-30T14:07:53.213+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.r.CustomerController               : Deactivating customer with id: 2
+2024-04-30T14:07:53.215+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.services.CustomerService           : Deactivating customer with id: 2
+2024-04-30T14:07:53.220+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.r.CustomerController               : Customer with id 2 deactivated successfully
+2024-04-30T14:08:26.301+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.r.CustomerController               : Deactivating customer with id: 4
+2024-04-30T14:08:26.301+03:00 DEBUG 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.services.CustomerService           : Deactivating customer with id: 4
+2024-04-30T14:08:26.323+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-4] c.e.t.r.CustomerController               : Customer with id 4 deactivated successfully
+2024-04-30T14:13:29.537+03:00  INFO 12000 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:13:46.504+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Starting TaskTestRavenApplicationTwoApplication using Java 19.0.2 with PID 14480 (D:\java\projects\TaskTestRavenApplicationTwo\target\classes started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T14:13:46.506+03:00 DEBUG 14480 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T14:13:46.508+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T14:13:48.078+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T14:13:48.170+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 1 JPA repository interface.
+2024-04-30T14:13:49.087+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-04-30T14:13:49.311+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2725 ms
+2024-04-30T14:13:53.322+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T14:13:55.814+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:13:56.228+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T14:13:56.707+03:00  WARN 14480 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T14:13:57.207+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-04-30T14:13:57.219+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [main] t.TaskTestRavenApplicationTwoApplication : Started TaskTestRavenApplicationTwoApplication in 11.655 seconds (process running for 14.469)
+2024-04-30T14:14:01.519+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-30T14:14:01.521+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-30T14:14:01.577+03:00 DEBUG 14480 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.r.CustomerController               : Deactivating customer with id: 4
+2024-04-30T14:14:01.580+03:00 DEBUG 14480 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.services.CustomerService           : Deactivating customer with id: 4
+2024-04-30T14:14:01.756+03:00 ERROR 14480 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-2] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: Customer with 4 5 does not exist
+2024-04-30T14:14:13.294+03:00 DEBUG 14480 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.r.CustomerController               : Deactivating customer with id: 3
+2024-04-30T14:14:13.295+03:00 DEBUG 14480 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.services.CustomerService           : Deactivating customer with id: 3
+2024-04-30T14:14:13.429+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [http-nio-8080-exec-3] c.e.t.r.CustomerController               : Customer with id 3 deactivated successfully
+2024-04-30T14:14:33.514+03:00  INFO 14480 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:18:21.205+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Starting CustomerControllerTest using Java 19.0.2 with PID 4736 (started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T14:18:21.207+03:00 DEBUG 4736 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T14:18:21.208+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T14:18:22.830+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T14:18:23.018+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 170 ms. Found 1 JPA repository interface.
+2024-04-30T14:18:26.464+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T14:18:28.120+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:18:28.742+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T14:18:29.662+03:00  WARN 4736 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T14:18:30.525+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-04-30T14:18:30.528+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-04-30T14:18:30.533+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2024-04-30T14:18:30.617+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Started CustomerControllerTest in 10.05 seconds (process running for 12.365)
+2024-04-30T14:18:33.066+03:00 ERROR 4736 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : Validation error in field 'fullName': Full name is required
+2024-04-30T14:18:33.189+03:00  INFO 4736 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:22:34.547+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Starting CustomerControllerTest using Java 19.0.2 with PID 9788 (started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T14:22:34.549+03:00 DEBUG 9788 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T14:22:34.551+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T14:22:36.263+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T14:22:36.410+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+2024-04-30T14:22:39.852+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T14:22:41.537+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:22:42.061+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T14:22:43.003+03:00  WARN 9788 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T14:22:43.812+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-04-30T14:22:43.813+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-04-30T14:22:43.816+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-04-30T14:22:43.873+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Started CustomerControllerTest in 10.055 seconds (process running for 12.245)
+2024-04-30T14:22:45.270+03:00 DEBUG 9788 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Creating customer with email: test@example.com
+2024-04-30T14:22:45.602+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Customer with email test@example.com created successfully
+2024-04-30T14:22:45.972+03:00  INFO 9788 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:22:55.983+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Starting TaskTestRavenApplicationTwoApplicationTests using Java 19.0.2 with PID 3944 (started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T14:22:55.987+03:00 DEBUG 3944 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T14:22:55.988+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T14:22:57.581+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T14:22:57.695+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interface.
+2024-04-30T14:23:01.451+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T14:23:02.891+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:23:03.379+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T14:23:04.378+03:00  WARN 3944 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T14:23:05.192+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Started TaskTestRavenApplicationTwoApplicationTests in 9.897 seconds (process running for 12.204)
+2024-04-30T14:23:06.309+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.tasktestravenapplicationtwo.restControllers.CustomerControllerTest]: CustomerControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-04-30T14:23:06.355+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.tasktestravenapplicationtwo.TaskTestRavenApplicationTwoApplication for test class com.example.tasktestravenapplicationtwo.restControllers.CustomerControllerTest
+2024-04-30T14:23:06.419+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Starting CustomerControllerTest using Java 19.0.2 with PID 3944 (started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T14:23:06.420+03:00 DEBUG 3944 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T14:23:06.430+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T14:23:06.884+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T14:23:06.905+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-04-30T14:23:07.905+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T14:23:08.021+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:23:08.163+03:00  WARN 3944 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T14:23:08.470+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-04-30T14:23:08.470+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-04-30T14:23:08.472+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-04-30T14:23:08.488+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Started CustomerControllerTest in 2.113 seconds (process running for 15.5)
+2024-04-30T14:23:09.016+03:00 ERROR 3944 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : Validation error in field 'email': Email must be unique
+2024-04-30T14:23:09.101+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:23:09.125+03:00  INFO 3944 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:26:45.608+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Starting CustomerControllerTest using Java 19.0.2 with PID 6868 (started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T14:26:45.611+03:00 DEBUG 6868 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T14:26:45.613+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T14:26:47.683+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T14:26:47.802+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+2024-04-30T14:26:51.758+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T14:26:53.376+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T14:26:54.022+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T14:26:54.946+03:00  WARN 6868 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T14:26:55.823+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerControllerTest           : Started CustomerControllerTest in 10.994 seconds (process running for 13.907)
+2024-04-30T14:26:57.980+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] o.s.mock.web.MockServletContext          : Initializing Spring TestDispatcherServlet ''
+2024-04-30T14:26:57.982+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-04-30T14:26:57.984+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-04-30T14:26:58.519+03:00  INFO 6868 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T15:24:42.781+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Starting TaskTestRavenApplicationTwoApplicationTests using Java 19.0.2 with PID 10484 (started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T15:24:42.813+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T15:24:42.824+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T15:24:46.718+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T15:24:47.223+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 397 ms. Found 1 JPA repository interface.
+2024-04-30T15:25:01.583+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T15:25:05.396+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T15:25:06.500+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T15:25:08.107+03:00  WARN 10484 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T15:25:09.677+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Started TaskTestRavenApplicationTwoApplicationTests in 28.097 seconds (process running for 32.338)
+2024-04-30T15:25:13.485+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T15:25:13.667+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T15:25:13.746+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T15:25:13.759+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T15:25:13.924+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Reading customer with id: 1
+2024-04-30T15:25:14.006+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Updating customer with id: 1
+2024-04-30T15:25:14.015+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Creating customer with email: johndoe@example.com
+2024-04-30T15:25:14.024+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Reading all active customers
+2024-04-30T15:25:14.024+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Found 2 active customers
+2024-04-30T15:25:14.049+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Deactivating customer with id: 1
+2024-04-30T15:25:14.050+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Customer with id 1 deactivated successfully
+2024-04-30T15:25:14.247+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Deactivating customer with id: 1
+2024-04-30T15:25:14.278+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Active customer found with id: 1
+2024-04-30T15:25:14.412+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Updating customer with id: 1
+2024-04-30T15:25:14.413+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Customer with id 1 updated successfully
+2024-04-30T15:25:14.439+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Customer with email johndoe@example.com created successfully
+2024-04-30T15:25:14.462+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Reading all active customers
+2024-04-30T15:25:14.496+03:00 DEBUG 10484 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Deactivating customer with id: 1
+2024-04-30T15:25:14.605+03:00  INFO 10484 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T15:59:05.625+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Starting TaskTestRavenApplicationTwoApplicationTests using Java 19.0.2 with PID 12952 (started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T15:59:05.649+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T15:59:05.651+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T15:59:09.642+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T15:59:09.828+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interface.
+2024-04-30T15:59:35.004+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T15:59:38.289+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T15:59:39.371+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T15:59:40.639+03:00  WARN 12952 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T15:59:42.121+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Started TaskTestRavenApplicationTwoApplicationTests in 37.611 seconds (process running for 53.7)
+2024-04-30T15:59:42.390+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T15:59:42.420+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T15:59:42.444+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T15:59:42.458+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T15:59:42.465+03:00 ERROR 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : Unexpected error occurred: Unexpected error occurred
+2024-04-30T15:59:43.101+03:00 ERROR 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : Validation error in field 'field': defaultMessage
+2024-04-30T15:59:43.113+03:00 ERROR 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : ConstraintViolationException occurred: ConstraintViolationException occurred
+2024-04-30T15:59:43.122+03:00 ERROR 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: CustomerException occurred
+2024-04-30T15:59:43.298+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Reading customer with id: 1
+2024-04-30T15:59:43.345+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Updating customer with id: 1
+2024-04-30T15:59:43.355+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Creating customer with email: johndoe@example.com
+2024-04-30T15:59:43.365+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Reading all active customers
+2024-04-30T15:59:43.366+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Found 2 active customers
+2024-04-30T15:59:43.382+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Deactivating customer with id: 1
+2024-04-30T15:59:43.383+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Customer with id 1 deactivated successfully
+2024-04-30T15:59:43.466+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Deactivating customer with id: 1
+2024-04-30T15:59:43.482+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Active customer found with id: 1
+2024-04-30T15:59:43.495+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Updating customer with id: 1
+2024-04-30T15:59:43.496+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Customer with id 1 updated successfully
+2024-04-30T15:59:43.508+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Customer with email johndoe@example.com created successfully
+2024-04-30T15:59:43.519+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Reading all active customers
+2024-04-30T15:59:43.557+03:00 DEBUG 12952 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Deactivating customer with id: 1
+2024-04-30T15:59:43.601+03:00  INFO 12952 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T21:53:20.911+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Starting TaskTestRavenApplicationTwoApplicationTests using Java 19.0.2 with PID 7312 (started by nikit in D:\java\projects\TaskTestRavenApplicationTwo)
+2024-04-30T21:53:20.946+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-04-30T21:53:20.948+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-04-30T21:53:24.365+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-30T21:53:24.615+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 233 ms. Found 1 JPA repository interface.
+2024-04-30T21:53:37.349+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-30T21:53:40.012+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-30T21:53:41.047+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-30T21:53:42.336+03:00  WARN 7312 --- [TaskTestRavenApplicationTwo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-30T21:53:43.597+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] kTestRavenApplicationTwoApplicationTests : Started TaskTestRavenApplicationTwoApplicationTests in 23.93 seconds (process running for 47.641)
+2024-04-30T21:53:43.833+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T21:53:43.841+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T21:53:43.857+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T21:53:43.872+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.v.CustomerUpdateValidator          : Validation of updated data has begun
+2024-04-30T21:53:43.880+03:00 ERROR 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : Unexpected error occurred: Unexpected error occurred
+2024-04-30T21:53:44.509+03:00 ERROR 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : Validation error in field 'field': defaultMessage
+2024-04-30T21:53:44.519+03:00 ERROR 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : ConstraintViolationException occurred: ConstraintViolationException occurred
+2024-04-30T21:53:44.527+03:00 ERROR 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.advices.GlobalExceptionAdvice      : CustomerException occurred: CustomerException occurred
+2024-04-30T21:53:44.733+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Reading customer with id: 1
+2024-04-30T21:53:44.793+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Updating customer with id: 1
+2024-04-30T21:53:44.804+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Creating customer with email: johndoe@example.com
+2024-04-30T21:53:44.816+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Reading all active customers
+2024-04-30T21:53:44.817+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Found 2 active customers
+2024-04-30T21:53:44.831+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Deactivating customer with id: 1
+2024-04-30T21:53:44.832+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.r.CustomerController               : Customer with id 1 deactivated successfully
+2024-04-30T21:53:44.904+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Deactivating customer with id: 1
+2024-04-30T21:53:44.925+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Active customer found with id: 1
+2024-04-30T21:53:44.938+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Updating customer with id: 1
+2024-04-30T21:53:44.939+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Customer with id 1 updated successfully
+2024-04-30T21:53:44.956+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Customer with email johndoe@example.com created successfully
+2024-04-30T21:53:44.968+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Reading all active customers
+2024-04-30T21:53:44.987+03:00 DEBUG 7312 --- [TaskTestRavenApplicationTwo] [main] c.e.t.services.CustomerService           : Deactivating customer with id: 1
+2024-04-30T21:53:45.009+03:00  INFO 7312 --- [TaskTestRavenApplicationTwo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
